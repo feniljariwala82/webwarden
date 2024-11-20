@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: webwarden
+productName: WebWarden
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: webwarden
+  executableName: WebWarden
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
