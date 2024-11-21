@@ -1,6 +1,6 @@
-# webwarden
+# WebWarden
 
-An Electron application with React and TypeScript
+WebWarden is a modern desktop application designed for website administrators, developers, and IT professionals who need a reliable tool to monitor the availability and status of websites. Utilizing a polling-based monitoring method, WebWarden checks the live status of websites at regular intervals, helping users identify downtime and maintain optimal uptime.
 
 ## Recommended IDE Setup
 

@@ -1,15 +1,9 @@
-import Versions from './components/Versions'
-import { Button } from '@mantine/core'
+import { Navbar } from '@renderer/components/Navbar/Navbar'
 
 function App(): JSX.Element {
-  const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
-
   return (
     <>
-      <Button variant="filled" onClick={ipcHandle}>
-        Send IPC
-      </Button>
-      <Versions></Versions>
+      <Navbar />
     </>
   )
 }
